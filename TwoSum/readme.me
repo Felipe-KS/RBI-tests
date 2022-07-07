@@ -1,0 +1,5 @@
+Problem
+Write a function that, given a vector and a target sum, returns zero-based indices of any two distinct elements whose sum is equal to the target sum. If there are no such elements, the function should return (-1, -1).
+
+Solution
+For this problem I'm assuming that the list/vector is ordened and dont have any duplicated number, so to find the two sums I use two pointers to test if the first and last numbers are the right answear, bigger ou smaller, and if is the right I jump for the next number because if not will result only in smallers numbers, if is bigger I return the pointer that are in the end because will get a smaller result, and so if the answaer are bigger I go to the next with de smaller pointer.
